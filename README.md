@@ -9,15 +9,16 @@
     No such file or directory: 'cs231n/datasets/cifar-10-batches-py\\data_batch_1'
     ```
 1. 原因
-   - 下载的作业中没有cifar-10数据集
+   - 下载的作业中没有cifar-10数据集（默认）
 2. 方法
-   - Windows
-        - 从[链接](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)下载数据集
+   - **Windows**
+        - 从[链接](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)下载数据集（推荐迅雷下载）
         - 解压得到 `cifar-10-batches-py`文件夹
         - 将整个文件放到作业中的`assignment1/cs231n/datasets/`路径下
-   - Linux
+   - **Linux**
         - 进入`assignment1/cs231n/datasets/`路径下，在终端中运行以下代码
             ```bash
+            # cd /your/path/to/assignment1/cs231n/datasets/
             wget http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz -O cifar-10-python.tar.gz
             tar -xzvf cifar-10-python.tar.gz
             rm cifar-10-python.tar.gz
